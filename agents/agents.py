@@ -1,8 +1,8 @@
 from agentgpt import AgentGPT
 
 # Initialize the agents
-agent1 = AgentGPT(model_name="gpt3", use_cuda=False)
-agent2 = AgentGPT(model_name="gpt3", use_cuda=False)
+agent1 = AgentGPT(model_name="gpt3.5", use_cuda=False)
+agent2 = AgentGPT(model_name="gpt3.5", use_cuda=False)
 
 # Initialize the environment
 garbage = 10
